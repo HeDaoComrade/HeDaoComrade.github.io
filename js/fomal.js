@@ -1113,14 +1113,14 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("01/10/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
+    `欢迎来到HeDaoComrade Regulus🥝の小家!`,
+    `Front back left right end engineer.`,
     `
         
 ███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2024 By HeDaocomrade Regulus",
   ];
 
   setTimeout(
@@ -1154,7 +1154,7 @@ function createtime1() {
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
+  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「碳基生物正常人类」`, `Photo captured: `, ` 🤪 `];
 
   setTimeout(
     console.log.bind(
@@ -1167,12 +1167,12 @@ function createtime2() {
     )
   );
 
-  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，大聪明", "color:white; background-color:#23c682", ""));
+  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，碳基生物", "color:white; background-color:#23c682", ""));
 
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by HeDaoComrade Regulus🥝 %c 你正在访问HeDaoCorade Regulus🥝の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -2789,7 +2789,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("01/10/2024 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -2986,7 +2986,7 @@ function setUniverse() {
 
 // 雪花开关
 if (localStorage.getItem("snow") == undefined) {
-  localStorage.setItem("snow", "none");
+  localStorage.setItem("snow", "block");
 }
 document.getElementById("snow").style.display = localStorage.getItem("snow");
 function setSnow() {
@@ -3226,7 +3226,7 @@ function getPicture_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "链接不对🤣",
+          title: "无效的链接🤣",
           message: "请输入有效的图片链接！",
           position: 'top-left',
           offset: 50,
