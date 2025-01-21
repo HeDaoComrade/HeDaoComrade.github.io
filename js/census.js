@@ -5,7 +5,6 @@ var end_date = '' + date.getFullYear() + (date.getMonth() > 8 ? (date.getMonth()
 var access_token = '' // accessToken
 var site_id = '' // 网址 id
 var dataUrl = '' + access_token + '&site_id=' + site_id
-// var dataUrl = 'https://baidu-tongji.fomal.cc/api?site_id=' + site_id
 var metrics = 'pv_count' // 统计访问次数 PV 填写 'pv_count'，统计访客数 UV 填写 'visitor_count'，二选一
 var metricsName = (metrics === 'pv_count' ? '访问次数' : (metrics === 'visitor_count' ? '访客数' : ''))
 // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义

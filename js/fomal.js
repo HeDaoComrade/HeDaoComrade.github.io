@@ -387,7 +387,7 @@ document.onkeydown = function (e) {
 //----------------------------------------------------------------
 
 /* 雪花特效 start */
-if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+if ((navigator.userAgent.match(/(Symbian|Windows Phone)/i))) {
   // 移动端不显示
 } else {
   // document.write('<canvas id="snow" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-2;pointer-events:none"></canvas>');
@@ -1113,27 +1113,27 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("01/04/2025 08:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
+    `欢迎来到合道知晚同志的小站！`,
     `Future is now 🍭🍭🍭`,
     `
         
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
+███████  ██████   ██████  ███████    ██████    ██
+██      ██    ██ ██    ██ ██   ██   ██    ██   ██
+█████   ████████ ████████ ██   ██   █████████  ██   
+██      ██ ██    ██  ██   ██   ██   ██ ██          
+██████  ██   ██  ██    ██ ███████   ██   ██    ██    
                                               
 `,
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2025 By HeDaoZhiWanComrade",
   ];
 
   setTimeout(
@@ -1154,7 +1154,7 @@ function createtime1() {
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
+  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「面部特征访问库加载时出错」`, `Photo captured: `, ` 🤪 `];
 
   setTimeout(
     console.log.bind(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by HeDaoZhiWanComrade %c 你正在访问合道同志的小站！",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| HeDaoZhiWanComrade") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('HeDaoZhiWanComrade的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -2491,13 +2491,13 @@ if (m == 5 && dd == 1) {//劳动节
 }
 if (m == 5 && dd == 4) {//青年节
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("青年节快乐\n青春不是回忆逝去,而是把握现在！");
+    Swal.fire("五四的火炬，唤起了民族的觉醒！青年节快乐\n青春不是回忆逝去,而是把握现在！");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
 if (m == 5 && dd == 20) {//520
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("今年是520情人节\n快和你喜欢的人一起过吧！💑");
+    Swal.fire("今年是520\n快和你喜欢的人一起过吧！（@晚香）💑");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2519,9 +2519,15 @@ if (m == 12 && dd == 25) {//圣诞节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 8 && dd == 11) {//站长生日
+if (m == 1 && dd == 4) {//站长生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝站长" + (y - 1998).toString() + "岁生日快乐！🥝");
+    Swal.fire("祝站长" + (y - 2011).toString() + "岁生日快乐！");
+    sessionStorage.setItem("isPopupWindow", "1");
+  }
+}
+if (m == 10 && dd == 16) {//晚香生日
+  if (sessionStorage.getItem("isPopupWindow") != "1") {
+    Swal.fire("晓知晚香不逊朝，祝晚香" + (y - 2010).toString() + "岁生日快乐！");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2542,7 +2548,7 @@ if ((y == 2023 && m == 4 && dd == 5) || (y == 2024 && m == 4 && dd == 4) || (y =
 }
 if ((y == 2023 && m == 12 && dd == 22) || (y == 2024 && m == 12 && dd == 21) || (y == 2025 && m == 12 && dd == 21)) {//冬至
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("冬至快乐\n快吃上一碗热热的汤圆和饺子吧🧆");
+    Swal.fire("冬至快乐\n快吃上一碗热热的羊肉饺子吧🧆");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2554,7 +2560,7 @@ var lunar = calendarFormatter.solar2lunar();
 if ((lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初六") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初五") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初四") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初三") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初二") || (lunar["IMonthCn"] == "正月" && lunar["IDayCn"] == "初一") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "三十") || (lunar["IMonthCn"] == "腊月" && lunar["IDayCn"] == "廿九")) {
   //春节，本来只有大年三十到初六，但是有时候除夕是大年二十九，所以也加上了
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire(y.toString() + "年新年快乐\n🎊祝你心想事成，诸事顺利🎊");
+    Swal.fire(y.toString() + "年新年快乐\n🎊新岁迎春寒将尽，旧花犹荣繁佳绩🎊");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
@@ -2595,12 +2601,12 @@ if ((lunar["IMonthCn"] == "九月" && lunar["IDayCn"] == "初九")) {
 }
 
 // 切换主题提醒
-// if (y == 2022 && m == 12 && (dd >= 18 && dd <= 20)) {
-//     if (sessionStorage.getItem("isPopupWindow") != "1") {
-//         Swal.fire("网站换成冬日限定主题啦⛄");
-//         sessionStorage.setItem("isPopupWindow", "1");
-//     }
-// }
+if (y == 2025 && m == 1 && (dd >= 10 && dd <= 31)) {
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("网站换成冬日限定主题啦⛄合道知晚同志祝你在冬日里能够有幸去晒晒珍贵的太阳！");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
 
 
 /* 节日弹窗 end */
@@ -2789,7 +2795,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("01/04/2025 08:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3226,7 +3232,7 @@ function getPicture_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "链接不对🤣",
+          title: "链接不正确🤣",
           message: "请输入有效的图片链接！",
           position: 'top-left',
           offset: 50,
