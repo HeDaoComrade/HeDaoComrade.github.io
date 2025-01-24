@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HeDaoZhiWanComrade</title>
+  <title>HeDaoZhiWan</title>
   
   <subtitle>合道知晚同志的小站</subtitle>
   <link href="https://www.hedaozhiwan.top/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://www.hedaozhiwan.top/</id>
   
   <author>
-    <name>HeDaoZhiWanComrade</name>
+    <name>HeDaoZhiWan</name>
     
   </author>
   
