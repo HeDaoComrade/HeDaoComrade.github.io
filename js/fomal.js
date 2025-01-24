@@ -1120,14 +1120,15 @@ function createtime1() {
 
   var ascll = [
     `欢迎来到合道知晚同志的小站！`,
-    `Future is now 🍭🍭🍭`,
+    `休笑我命朝暮间，也敢只手补天裂`,
     `
         
-███████  ██████   ██████  ███████    ██████    ██
-██      ██    ██ ██    ██ ██   ██   ██    ██   ██
-█████   ████████ ████████ ██   ██   █████████  ██   
-██      ██ ██    ██  ██   ██   ██   ██ ██          
-██████  ██   ██  ██    ██ ███████   ██   ██    ██    
+                                                                                                                 
+ _|    _|            _|_|_|                        _|_|_|_|_|  _|        _|  _|          _|                      
+ _|    _|    _|_|    _|    _|    _|_|_|    _|_|          _|    _|_|_|        _|          _|    _|_|_|  _|_|_|    
+ _|_|_|_|  _|_|_|_|  _|    _|  _|    _|  _|    _|      _|      _|    _|  _|  _|    _|    _|  _|    _|  _|    _|  
+ _|    _|  _|        _|    _|  _|    _|  _|    _|    _|        _|    _|  _|    _|  _|  _|    _|    _|  _|    _|  
+ _|    _|    _|_|_|  _|_|_|      _|_|_|    _|_|    _|_|_|_|_|  _|    _|  _|      _|  _|        _|_|_|  _|    _|
                                               
 `,
     "小站已经苟活",
@@ -1154,7 +1155,7 @@ function createtime1() {
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「面部特征访问库加载时出错」`, `Photo captured: `, ` 🤪 `];
+  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「面部特征访问库加载时出错，输出：0x00003906」`, `Photo captured: `, ` 🤪 `];
 
   setTimeout(
     console.log.bind(
@@ -1167,7 +1168,7 @@ function createtime2() {
     )
   );
 
-  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，大聪明", "color:white; background-color:#23c682", ""));
+  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临合道知晚的小站！", "color:white; background-color:#23c682", ""));
 
   setTimeout(
     console.warn.bind(
