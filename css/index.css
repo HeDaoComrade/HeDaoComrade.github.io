@@ -9693,11 +9693,11 @@ hr:before {
 /* 修改灯笼的字体 */
 
 .d-box .d1::after {
-    content: '兔年大吉';
+    content: '新年快乐！';
 }
 
 .d-box1 .d1::after {
-    content: '心想事成';
+    content: '新岁迎春';
 }
 
 .d-box1 .d1,
