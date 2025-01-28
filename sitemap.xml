@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.hedaozhiwan.top/posts/f838b920.html</loc>
+    
+    <lastmod>2025-01-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.hedaozhiwan.top/personal/zhiwan/index.html</loc>
     
     <lastmod>2025-01-28</lastmod>
@@ -243,6 +252,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://www.hedaozhiwan.top/tags/%E5%B0%8F%E9%95%BF%E6%96%87/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -268,6 +284,13 @@
   
   <url>
     <loc>https://www.hedaozhiwan.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hedaozhiwan.top/categories/%E5%B0%8F%E9%95%BF%E6%96%87/</loc>
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
